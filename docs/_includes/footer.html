@@ -28,12 +28,17 @@
       {%- include social.html -%}
     </div>
 
-    <div class="nav-items">
-      {%- for navigation_item in site.data.footer_navigation -%}
-      {%- if footer_item.title %}
-      <a class="nav-item" href="{{ footer_item.url }}">{{ footer_item.title | escape }}</a>
-      {%- endif -%}
-      {%- endfor -%}
+    <br>
+    <br>
+
+    <div align="center" style="text-align: center;">
+      <div class="nav-items">
+        {%- for footer_item in site.data.footer_navigation -%}
+        {%- if footer_item.title %}
+        <a class="nav-item" href="{{ footer_item.url }}">{{ footer_item.title | escape }}</a>
+        {%- endif -%}
+        {%- endfor -%}
+      </div>
     </div>
 
   </div>
