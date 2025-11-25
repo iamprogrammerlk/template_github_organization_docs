@@ -1,0 +1,13 @@
+<div class="nav-items">
+  {%- for path in include.paths -%}
+  {%- assign hyperpage = site.pages | where: "path", path | first -%}
+  {%- if hyperpage.title %}
+  <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
+  {%- endif -%}
+  {%- endfor %}
+  {%- for navigation_item in site.data.navigation -%}
+  {%- if navigation_item.title %}
+  <a class="nav-item" href="{{ navigation_item.url }}">{{ navigation_item.title | escape }}</a>
+  {%- endif -%}
+  {%- endfor -%}
+</div>
