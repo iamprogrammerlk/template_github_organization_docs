@@ -1,11 +1,17 @@
-- title: Home
+- title: 🏠 Home
   url: https://{{USERNAME}}.github.io
 
-- title: Docs
+- title: 📑 Docs
   url: https://{{USERNAME}}.github.io/docs
 
-- title: About
+- title: 🛟 Support
+  url: https://{{USERNAME}}.github.io/support
+
+- title: ☎️ Contact
+  url: https://{{USERNAME}}.github.io/contact
+
+- title: 🛎️ About
   url: https://{{USERNAME}}.github.io/about
 
-- title: Community
+- title: ♥️ Community
   url: https://reddit.com/r/{{USERNAME}}
