@@ -33,9 +33,10 @@
 
     <div align="center" style="text-align: center;">
       <div class="nav-items">
-        {%- for footer_item in site.data.footer_navigation -%}
-        {%- if footer_item.title %}
-        <a class="nav-item" href="{{ footer_item.url }}">{{ footer_item.title | escape }}</a>
+        {%- for navigation_item in site.data.navigation_footer -%}
+        {%- if navigation_item.title %}
+        <a class="nav-item" href="{{ navigation_item.url }}" style="padding: 8px;">{{ navigation_item.title | escape
+          }}</a>
         {%- endif -%}
         {%- endfor -%}
       </div>
