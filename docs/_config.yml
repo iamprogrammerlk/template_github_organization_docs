@@ -29,6 +29,7 @@ minima:
   # theme default "nav_pages:" is overridden by the "_data/navigation.yml"
   # nav_pages:
   #   - support.md
+  show_excerpts: true
   social_links:
     - title: GitHub
       icon: github
