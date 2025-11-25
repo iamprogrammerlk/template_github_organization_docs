@@ -1,0 +1,8 @@
+- title: Docs
+  url: https://{{USERNAME}}.github.io/docs
+
+- title: About
+  url: /about
+
+- title: Community
+  url: https://reddit.com/r/{{USERNAME}}
