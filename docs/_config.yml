@@ -1,6 +1,6 @@
-title: { { SITE_TITLE } }
+title: "{{SITE_TITLE}}"
 
-email: { { SITE_EMAIL } }
+email: "{{SITE_EMAIL}}"
 
 description: >- # This means to ignore newlines until "baseurl:"
   {{SITE_DESCRIPTION}}
@@ -32,16 +32,16 @@ minima:
   social_links:
     - title: GitHub
       icon: github
-      url: "https://github.com/iamprogrammerlk"
+      url: "https://github.com/{{USERNAME}}"
     - title: Reddit
       icon: reddit
-      url: "https://reddit.com/user/iamprogrammerlk_"
+      url: "https://reddit.com/user/{{USERNAME}}"
     - title: YouTube
       icon: youtube
-      url: "https://youtube.com/@iamprogrammerlk"
+      url: "https://youtube.com/@{{USERNAME}}"
     - title: LinkedIn
       icon: linkedin
-      url: "https://linkedin.com/company/iamprogrammerlk"
+      url: "https://linkedin.com/company/{{USERNAME}}"
     - title: X
       icon: x-twitter
-      url: "https://x.com/iamprogrammerlk"
+      url: "https://x.com/{{USERNAME}}"
