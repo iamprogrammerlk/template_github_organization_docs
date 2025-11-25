@@ -1,8 +1,11 @@
+- title: Home
+  url: https://{{USERNAME}}.github.io
+
 - title: Docs
   url: https://{{USERNAME}}.github.io/docs
 
 - title: About
-  url: /about
+  url: https://{{USERNAME}}.github.io/about
 
 - title: Community
   url: https://reddit.com/r/{{USERNAME}}
