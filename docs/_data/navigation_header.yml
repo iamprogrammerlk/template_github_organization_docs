@@ -4,6 +4,9 @@
 - title: 📑 Docs
   url: https://{{USERNAME}}.github.io/docs
 
+- title: ♥️ Community
+  url: https://reddit.com/r/{{USERNAME}}
+
 - title: 🛟 Support
   url: https://{{USERNAME}}.github.io/support
 
@@ -13,5 +16,5 @@
 - title: 🛎️ About
   url: https://{{USERNAME}}.github.io/about
 
-- title: ♥️ Community
-  url: https://reddit.com/r/{{USERNAME}}
+- title: 🫅 Sponsor
+  url: https://{{USERNAME}}.github.io/sponsor

@@ -35,7 +35,8 @@
       <div class="nav-items">
         {%- for navigation_item in site.data.navigation_footer -%}
         {%- if navigation_item.title %}
-        <a class="nav-item" href="{{ navigation_item.url }}" style="padding: 8px;">{{ navigation_item.title | escape
+        <a class="nav-item" href="{{ navigation_item.url }}" rel="canonical" style="padding: 8px;">{{
+          navigation_item.title | escape
           }}</a>
         {%- endif -%}
         {%- endfor -%}
