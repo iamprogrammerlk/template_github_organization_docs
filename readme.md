@@ -4,7 +4,7 @@
 <br>
 
 <div align="center" style="text-align: center;">
-  <a href="https://{{PROJECT_URL}}">
+  <a target="_blank" rel="noreferrer" href="https://{{PROJECT_URL}}">
     <img src="resource/cover_3840x2160.png" alt="{{PROJECT_TITLE}}" width="100%">
   </a>
 </div>
