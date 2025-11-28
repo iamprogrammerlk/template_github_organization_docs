@@ -189,6 +189,6 @@ See [license][license_md] for more information.
 [license_md]: /license.md
 [security_advisories]: /../../security/advisories/new
 [community]: https://reddit.com/r/{{PROJECT_GITHUB_USERNAME}}
-[documentation]: https://{{PROJECT_DOCUMENTATION_URL}}
-[api_documentation]: https://{{PROJECT_API_DOCUMENTATION_URL}}
+[documentation]: https://{{PROJECT_DOCUMENTATION_URL}}/docs
+[api_documentation]: https://{{PROJECT_API_DOCUMENTATION_URL}}/docs
 [youtube]: https://youtube.com/@{{PROJECT_YOUTUBE_USERNAME}}
